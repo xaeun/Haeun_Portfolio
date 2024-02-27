@@ -4,7 +4,7 @@ import '../css/Cover.css';
 const Cover = () => {
     return (
         <div className="Cover">
-            <div className='titlecover'>
+            {/* <div className='titlecover'>
                 <p className="subtitle1">Frontend - Developer</p>
                 <div className="title_background">
                     <div className="title_line">
@@ -15,7 +15,20 @@ const Cover = () => {
                     </div>
                 </div>
                 <p className="subtitle2">Frontend - Developer</p>
+            </div> */}
+            <div className='cover1'>
+               
             </div>
+            <div className='cover2'>
+                <div>
+                    Frontend-Developer
+                </div>
+                <div>
+                    <p>HAEUN</p>
+                    <p>PORTFOLIO</p>
+                </div>
+            </div>
+
             <Link to="Profile" spy={true} smooth={true} offset={-100} >
                 <p className="titledown"><img src="../Img/icon-pagedown.gif" /></p>
             </Link>

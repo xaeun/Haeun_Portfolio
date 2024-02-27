@@ -8,7 +8,7 @@ const Skill = () => {
             </h3>
             <div>
                 <p className='s_html5'> <img src="../Img/Html.png"/>HTML5</p> 
-                <p className='s_css3'> <img src="../Img/CSS.png"/>CSS3</p>
+                <p className='s_css3'> <img src="../Img/Css.png"/>CSS3</p>
             </div>
             <div>
                 <p className='s_javaScript'> <img src="../Img/Javascript.png"/>JavaScript</p> 

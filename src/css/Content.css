@@ -24,6 +24,7 @@
 .introtxt {
     margin-bottom: 100px;
     text-align: center;
+    word-break: keep-all;
 }
 .introtxt p {
     margin-bottom: 10px;
