@@ -1,0 +1,121 @@
+/* Project.css */
+.Project{
+    position: relative;
+    margin: 0 20px;
+    padding-bottom: 50px;
+}
+.Project::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+}
+.Project h3 {
+    margin: 50px 0 20px 0;
+    font-size: 30px;
+    text-align: left;
+}
+.project_petdoc, .project_movielist, .project_pledis, .project_kzm, .project_parisbaguette, .project_ulsantour, .project_ulsanlibrary{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.project_img{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.project_img img{
+    width: 100%;
+}
+.project_title{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.project_info .project_text{
+    word-wrap: keep-all;
+}
+.project_info p{
+    margin-bottom: 10px;
+}
+.project_skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.project_skill p{
+    margin: 3px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #333;
+}
+.p_html{
+    background-color: #FFAE97;
+}
+.p_css{
+    background-color: #82A8C5;
+}
+.p_reactjs{
+    background-color: #C8EFFA;
+}
+.p_figma{
+    background-color: #FFC6A1;
+}
+.p_vsc{
+    background-color: #7AC2FB;
+}
+.p_jquery{
+    background-color: #8CBEE1;
+}
+.p_styledcomponent{
+    background-color: #B0A1EC;
+}
+.goto{
+    display: flex;
+    justify-content: center;
+}
+.goto p{
+    margin: 10px;
+    width: 70px;
+    text-align: center;
+}
+.goto .github span, .goto .homepage span{
+    color: #fff;
+    display: none;
+    text-align: center;
+}
+.goto .github:hover span, .goto .homepage:hover span{
+    display: block;
+} 
+
+@media screen and (min-width : 1024px){
+/* Project.css */
+
+.Project h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.project_img{
+    width: 60%;
+    margin: 0 10px;
+}
+.project_petdoc, .project_movielist, .project_kzm, .project_ulsantour,  .project_pledis,.project_parisbaguette, .project_ulsanlibrary{
+    display: flex;
+}
+.project_list div:nth-child(even){
+    flex-direction: row-reverse;
+}
+.project_info{
+    margin: auto 0;
+}
+
+.Project .tool{ 
+    text-align: center;
+    border-radius: 7px;
+    padding: 5px;
+    color: #333;
+    margin: 5px;
+}
+}

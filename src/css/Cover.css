@@ -1,0 +1,74 @@
+/* Cover.css */
+.Cover{
+    height: 50vh;
+    padding: 25vh 0;
+    position: relative;
+}
+
+.subtitle1, .subtitle2{
+    color: #E26559;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Gowun Batang";
+}
+
+.subtitle2{
+    transform: rotateX(180deg);
+}
+.title_background{
+    position: relative;
+    background-color: #FFE697;
+    margin: 10px auto;
+    border-radius: 50%;   
+    width: 80vw;
+    height: 25vh;
+}
+.title_line{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #2B7799;
+    border-radius: 50%;
+    width: 78vw;
+    height: 23vh;
+}
+.title{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Gowun Batang";
+    font-weight: 600;
+    color: #2B7799;
+    line-height: 1.1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.Cover .titledown{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    left: 0;
+}
+.Cover .titledown img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+@media screen and (min-width : 1024px) {
+    .Cover{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .title{
+        font-size: 70px;
+    }
+}
