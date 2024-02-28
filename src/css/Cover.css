@@ -5,12 +5,6 @@
     position: relative;
 }
 
-.cover1{
-    width: 50%;
-}
-.cover1 img{
-    width: 100%;
-}
 .subtitle1, .subtitle2{
     color: #E26559;
     font-size: 18px;
@@ -69,6 +63,12 @@
     object-fit: cover;
 }
 @media screen and (min-width : 768px){
+    .title_background{
+        width: 60vw;
+    }
+    .title_line{
+        width: 58vw;
+    }
     .subtitle1, .subtitle2{
         font-size: 20px;
     }
@@ -81,8 +81,13 @@
         max-width: 1440px;
         margin: 0 auto;
     }
-
+    .title_background{
+        width: 50vw;
+    }
+    .title_line{
+        width: 48vw;
+    }
     .title{
-        font-size: 70px;
+        font-size: 60px;
     }
 }
