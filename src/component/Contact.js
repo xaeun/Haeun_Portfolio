@@ -26,22 +26,26 @@ const Contact = () => {
 
   return (
     <div id='Contact' className='Contact'>
-    <h3>Contact</h3>
-    <div className='information'>
-      <div>
-      <p><img src='../Img/email.png'/></p>
-      <CopyToClipboard text="qkrgkdms7324@gmail.com" onCopy={()=>alert("클립보드에 복사되었습니다")}>
-      <text>qkrgkdms7324@gmail.com <img src='../Img/copyicon.png'/> </text>
-      </CopyToClipboard>
+      <h3>Contact</h3>
+      <div className='information'>
+        <div>
+          <p><img src='../Img/email.png' /></p>
+          <CopyToClipboard text="qkrgkdms7324@gmail.com" onCopy={() => alert("클립보드에 복사되었습니다")}>
+            <text>qkrgkdms7324@gmail.com <img src='../Img/copyicon.png' /> </text>
+          </CopyToClipboard>
+        </div>
+        <div>
+          <p><img src='../Img/call.png' /></p>
+          <CopyToClipboard text="01025287324" onCopy={() => alert("클립보드에 복사되었습니다")}>
+            <text>010.2528.7324 <img src='../Img/copyicon.png' /> </text>
+          </CopyToClipboard>
+        </div>
+        <div className='contactgithub'>
+          <p><img src='../Img/Github_w.png'/></p>
+          <p><a href='https://github.com/xaeun?tab=repositories'>GitHub account</a></p>
+        </div>
       </div>
-      <div>
-      <p><img src='../Img/call.png'/></p>
-      <CopyToClipboard text="01025287324" onCopy={()=>alert("클립보드에 복사되었습니다")}>
-      <text>010.2528.7324 <img src='../Img/copyicon.png'/> </text>
-      </CopyToClipboard>
-      </div>
-    </div>
-    {/* <div>
+      {/* <div>
     <p>send Email</p>
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>

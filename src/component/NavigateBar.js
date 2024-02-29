@@ -9,16 +9,16 @@ const NavigateBar = () => {
     return (
         <Nav>
             <div>  
-                <Link to="Profile" spy={true} smooth={true} offset={-100} className={activeButton === 'home' ? 'active' : ''}>
+                <Link to="Profile" spy={true} smooth={true} offset={-100} className={activeButton === 'Home' ? 'active' : ''}>
                 <span className="Btn_txt">Home</span>
                 </Link>
                 <br />
                 <Link to="Project" spy={true} smooth={true} offset={-100}
-                className={activeButton === 'project' ? 'active' : ''}>
+                className={activeButton === 'Project' ? 'active' : ''}>
                 <span className="Btn_txt">Project</span>
                 </Link>
                 <br />
-                <Link to="Contact" spy={true} smooth={true} offset={-50} className={activeButton === 'contact' ? 'active' : ''}>
+                <Link to="Contact" spy={true} smooth={true} offset={-50} className={activeButton === 'Contact' ? 'active' : ''}>
                 <span className="Btn_txt">Contact</span>
                 </Link>
                 <br />

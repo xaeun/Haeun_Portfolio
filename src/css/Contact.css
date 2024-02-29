@@ -10,6 +10,7 @@
 }
 .Contact .information{
     margin-bottom: 20px;
+    color: #fff;
 }
 .Contact .information div{
     display: flex;
@@ -20,14 +21,19 @@
     font-size: 18px;
 }
 .Contact .information text{
-    margin: auto 0;
     font-size: 18px;
     text-align: center;
+    margin-top: 16px;
 }
 .Contact .information img{
     margin-top: 3px;
 }
-.Contact form{
+.Contact .contactgithub a{
+    color: #fff;
+    display: inline-block;
+    margin-top: 5px;
+}
+/* .Contact form{
     display: flex;
     flex-direction: column;
     border: 1px solid #FFE697;
@@ -51,7 +57,7 @@
 }
 .Contact .message_in{
     height: 100px;
-}
+} */
 
 @media screen and (min-width : 1024px) {
     .Contact form{

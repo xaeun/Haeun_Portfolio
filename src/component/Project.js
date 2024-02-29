@@ -1,12 +1,14 @@
 import '../css/Project.css';
 
 const Project = () => {
+    // const [activeCard, setActiveCard] = useState('');
+    
     return (
         <div id="Project" className='Project'>
             <h3>Project</h3>
             <div className='project_list'>
             <div className="project_petdoc">
-                <div className='project_img'><img src="../Img/petdoc.png" /></div>
+                <div className='project_img'><a href='https://petdoc-f8ff6.web.app' target='_blank'><img src="../Img/petdoc.png" /></a></div>
                 <div className='project_info'>
                     <p className='project_title'>PETDOC</p>
                     <p>팀프로젝트</p>
@@ -31,7 +33,7 @@ const Project = () => {
                 </div>
             </div>
             <div className="project_movielist">
-                <div className='project_img'><img src="../Img/movielist.png" /></div>
+                <div className='project_img'><a href='https://movielist-6c128.web.app' target='_blank'><img src="../Img/movielist.png" /></a></div>
                 <div className='project_info'>
                     <p className='project_title'>Movie List</p>
                     <p>개인프로젝트</p>
@@ -54,7 +56,7 @@ const Project = () => {
                 </div>
             </div>
             <div className="project_pledis">
-                <div className='project_img'><img src="../Img/pledis.png" /></div>
+                <div className='project_img'><a href='https://heroic-conkies-1fd2cc.netlify.app' target='_blank'><img src="../Img/pledis.png" /></a></div>
                 <div className='project_info'>
                     <p className='project_title'>PLEDIS</p>
                     <p>개인프로젝트</p>
@@ -78,7 +80,7 @@ const Project = () => {
                 </div>
             </div>
             <div className="project_kzm">
-                <div className='project_img'><img src="../Img/kzm.png" /></div>
+                <div className='project_img'><a href='https://sunny-hummingbird-6e0585.netlify.app' target='_blank'><img src="../Img/kzm.png" /></a></div>
                 <div className='project_info'>
                     <p className='project_title'>KZM MALL</p>
                     <p>개인프로젝트</p>
@@ -102,7 +104,7 @@ const Project = () => {
                 </div>
             </div>
             <div className="project_parisbaguette">
-                <div className='project_img'><img src="../Img/parisbaguette.pc.png" /></div>
+                <div className='project_img'><a href='https://super-salmiakki-64df2b.netlify.app' target='_blank'><img src="../Img/parisbaguette.pc.png" /></a></div>
                 <div className='project_info'>
                     <p className='project_title'>파리바게트</p>
                     <p>개인프로젝트</p>
@@ -127,7 +129,7 @@ const Project = () => {
                 </div>
             </div>
             <div className="project_ulsantour">
-                <div className='project_img'><img src="../Img/ulsantour.png" /></div>
+                <div className='project_img'><a href='https://deft-brioche-086738.netlify.app/' target='_blank'><img src="../Img/ulsantour.png" /></a></div>
                 <div className='project_info'>
                     <p className='project_title'>울산관광</p>
                     <p>개인프로젝트</p>
@@ -148,7 +150,7 @@ const Project = () => {
                 </div>
             </div>
             <div className="project_ulsanlibrary">
-                <div className='project_img'><img src="../Img/ulsanlibrary.png" /></div>
+                <div className='project_img'><a href='https://deft-brioche-086738.netlify.app/' target='_blank'><img src="../Img/ulsanlibrary.png" /></a></div>
                 <div className='project_info'>
                     <p className='project_title'>울산도서관</p>
                     <p>개인프로젝트</p>
