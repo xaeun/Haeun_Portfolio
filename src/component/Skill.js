@@ -15,7 +15,6 @@ const Skill = () => {
                 <p className='s_jquery'> <img src="../Img/Jquery.png"/>jQuery</p>
                 <p className='s_reactjs'> <img src="../Img/Reactjs.png"/>React.js</p>
                 <p className='s_typescript'> <img src="../Img/Typescript.png"/>TypeScript</p>
-                <p className='s_nodejs'> <img src="../Img/Nodejs.png"/>Node.js</p>
             </div>
             <div>
             <p className='s_styledcomponent'> <img src="../Img/Styledconpoment.png"/>Styled-Component</p>
