@@ -13,8 +13,8 @@ const Project = () => {
                     <p className='project_title'>PETDOC</p>
                     <p>팀프로젝트</p>
                     <div className='goto'>
-                        <p className='github'><a href='https://github.com/xaeun/Petdoc.git' target='_blank'><img src="../Img/Github_w.png"/><span>git-hub</span></a></p>
-                        <p className='homepage'><a href='https://petdoc-f8ff6.web.app' target='_blank'><img src='../Img/home.png'/><span>Homepage</span></a></p>
+                        <p className='github'><a href='https://github.com/xaeun/PETDOC.git' target='_blank'><img src="../Img/Github_w.png"/><span>git-hub</span></a></p>
+                        <p className='homepage'><a href='https://petdoc-f0a0a.web.app' target='_blank'><img src='../Img/home.png'/><span>Homepage</span></a></p>
                     </div>
                     <p className='project_text'>
                         반려동물 동물병원 예약 사이트 입니다. <br />
